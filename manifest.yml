@@ -3,3 +3,6 @@ applications:
  - name: movies-reviews-database-414
    random-route: false
    memory: 128M
+   services:
+   - Cloudant-oy
+   - Natural Language Understanding-7x
